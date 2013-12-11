@@ -1,0 +1,12 @@
+---
+install:
+- pip install setuptools --upgrade
+- python bootstrap.py
+- bin/buildout -N -q -t 10
+python:
+- 2.7
+language: python
+script:
+- bin/nosetests quintagroup.robotframework.utils.rst --with-doctest
+- bin/nosetests quintagroup.robotframework.utils.bunchify --with-doctest
+- bin/nosetests quintagroup.robotframework.utils.datetimehelper --with-doctest
