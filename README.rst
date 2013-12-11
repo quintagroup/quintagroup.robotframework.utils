@@ -31,6 +31,7 @@ For example you have a file 'users.rst' where you save users accounts informatio
 and in test case you can parse this file and access its data in the following manner:
 
 ::
+
     *** Settings ***
     Library         quintagroup.robotframework.datafile.rst
 
