@@ -1,3 +1,6 @@
+.. image::  https://travis-ci.org/quintagroup/quintagroup.robotframework.utils.png?branch=master
+    :target: https://travis-ci.org/quintagroup/quintagroup.robotframework.utils
+    
 Quintagroup robotframework utils
 =====================================
 
