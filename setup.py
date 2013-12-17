@@ -5,7 +5,7 @@ version = '1.0'
 
 setup(name='quintagroup.robotframework.utils',
       version=version,
-      description="",
+      description="Datafile library that provides more convenient way to save some of your test data than robotframework variables tables",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
